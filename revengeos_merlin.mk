@@ -50,4 +50,4 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 
-
+$(call inherit-product, vendor/aeonax/ANXCamera/anx-vendor.mk)
